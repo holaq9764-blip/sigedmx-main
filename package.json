@@ -1,0 +1,31 @@
+{
+    "name": "dc-nexus-pro",
+    "version": "1.0.0",
+    "description": "Sistema web empresarial con registro, login y panel de usuario",
+    "main": "server.js",
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "login",
+        "registro"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "dotenv": "^18.0.8",
+        "express": "^4.19.2",
+        "jsonwebtoken": "^9.0.3",
+        "multer": "^2.0.2",
+        "nodemailer": "^10.1.1"
+    },
+    "overrides": {
+        "qs": "6.16.0"
+    }
+}
